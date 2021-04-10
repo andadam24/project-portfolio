@@ -24,6 +24,10 @@ header {
     font-size: 25px;
 }
 
+.img.circle {
+    border-radius: 50%;
+}
+
 .Work {
     font-size: 25px;
 }
