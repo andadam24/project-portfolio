@@ -5,30 +5,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adam Andrzejczak's Portfolio</title>
+  <link rel="stylesheet" href="assets/styles/reset.css">
+  <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
 
 <body>
-  
-  <h1 style="text-align:left;">Adam Andrzejczak's Portfolio </h1>
-  <section>
+  <header>   
+  <h1 class="page-title">Adam Andrzejczak's Portfolio </h1>
+  <div>
     <ul>
         <li><a href="#About Me">About Me</a></li>
         <li><a href="#Work">Work</a></li>
         <li><a href="#Contact Me">Contact Me</a></li>
     </ul>
-  </section>
+  </div>
+  </header>
+
+  <main>
   <section class="About Me">
       <h2>About Me</h2>
-      <img src="assets/images/" alt="Image of Adam Andrzejczak" />
+      <aside>
+      <img src="assets/images/" alt="Placeholder for image of Adam Andrzejczak" />
+      </aside>
       <p>Hello, my name is Adam Andrzejczak. I graduated from Michigan State University in 2016 with a Bachelor's Degree in Finance. I have been working full-time since and thought that coding would be an interesting skill to learn. I stumbled upon the MSU Bootcamp and thought this would be a great way to learn. I hope you enjou my portfolio and my contact information is below if you'd like to connect. </p>
   </section>
+
   <section class="Work">
-      <h2>Work</h2>
+    <h2>Work</h2>
+  <section class="row justify-center">
+      <div class="card-column">
+          <figure class="card code-card">
+              <h3 class="placeholder ex.1">placeholder ex.1</h3>
+              <div class="card body"></div>
+          </figure>
+      </div>
+
+      <div class="card-column">
+        <figure class="card code-card">
+            <h3 class="placeholder ex.2">placeholder ex.2</h3>
+            <div class="card body"></div>
+        </figure>
+    </div>
+
+    <div class="card-column">
+        <figure class="card code-card">
+            <h3 class="placeholder ex.3">placeholder ex.3</h3>
+            <div class="card body"></div>
+        </figure>
+    </div>
   </section>
+  </main>
   <section class="Contact Me">
       <h2>Contact Me</h2>
       <ul>
-          
+          <li>313.820.8520</li>
+          <li><a href="mailto: andadam24@gmail.com">Send Email</a></li>
+          <li><a href="www.linkedin.com/in/adam-andrzejczak-80802681">LinkedIn Profile</a></li>
       </ul>
   </section>
   </body>
