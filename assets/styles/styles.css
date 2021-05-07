@@ -20,11 +20,6 @@ header {
     font-size: 50px;
 }
 
-aside{
-    flex: 30%;
-    background-color: cornsilk;
-    padding: 20px;
- }
 .About-Me {
     font-size: 25px;
 }
@@ -40,6 +35,17 @@ aside{
     font-size: 25px;
 }
 
+.card1 {
+
+}
+
+.card2 {
+
+}
+
+.card3 {
+
+}
 .Contact-Me {
     font-size: 25px;
 }
