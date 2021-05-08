@@ -10,7 +10,6 @@ body{
 
 header {
     padding: 10px;
-    text-align: left;
     background: #5f9ea0;
     color: #00008B;
 }
@@ -18,8 +17,16 @@ header {
 .page-title {
     display: inline-block;
     font-size: 50px;
+    text-align: left;
 }
-
+.items {
+    float: right;
+    padding: 8px 16px;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
 .About-Me {
     font-size: 25px;
 }
